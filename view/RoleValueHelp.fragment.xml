@@ -1,9 +1,11 @@
 <core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
-
-  <SelectDialog id="roleDialog" title="Select Role" confirm=".onConfirmRole"  items="{/employees}">
-
+  <SelectDialog
+    id="roleDialog"
+    title="Select Role"
+    confirm=".onConfirmRole"
+    search=".onSearchRole"
+    liveChange=".onSearchRole"
+    items="{/employees}">
     <StandardListItem id="_IDGenStandardListItem1" title="{role}" />
-
   </SelectDialog>
-
 </core:FragmentDefinition>

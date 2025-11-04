@@ -1,9 +1,11 @@
 <core:FragmentDefinition xmlns="sap.m" xmlns:core="sap.ui.core">
-
-  <SelectDialog id="nameDialog" title="Select Name" confirm=".onConfirmName" items="{/employees}">
-
+  <SelectDialog
+    id="nameDialog"
+    title="Select Name"
+    confirm=".onConfirmName"
+    search=".onSearchName"
+    liveChange=".onSearchName"
+    items="{/employees}">
     <StandardListItem id="_IDGenStandardListItem" title="{name}" />
-    
   </SelectDialog>
-
 </core:FragmentDefinition>
