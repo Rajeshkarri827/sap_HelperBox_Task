@@ -1,0 +1,8 @@
+{
+  "employees": [
+    { "name": "Rajesh", "role": "Developer" },
+    { "name": "Mani", "role": "Tester" },
+    { "name": "Vikas", "role": "Manager" },
+    { "name": "Harsha", "role": "Designer" }
+  ]
+}

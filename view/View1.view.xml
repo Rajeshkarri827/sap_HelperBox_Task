@@ -1,6 +1,21 @@
-<mvc:View controllerName="naruto.helperbox.controller.View1"
-    xmlns:mvc="sap.ui.core.mvc"
-    xmlns="sap.m">
-    <Page id="page" title="{i18n>title}">
-    </Page>
+<mvc:View
+  controllerName="naruto.helperbox.controller.View1"
+  xmlns:mvc="sap.ui.core.mvc"
+  xmlns="sap.m">
+
+  <Page id="_IDGenPage1" title="Employee Info">
+    <content>
+
+      <VBox id="_IDGenVBox" class="sapUiSmallMargin">
+
+        <Label id="_IDGenLabel" text="Name" />
+        <Input id="inpName" showValueHelp="true" valueHelpRequest=".onValueHelpName" />
+
+        <Label id="_IDGenLabel1" text="Role" class="sapUiSmallMarginTop" />
+        <Input id="inpRole" showValueHelp="true" valueHelpRequest=".onValueHelpRole" />
+        
+      </VBox>
+
+    </content>
+  </Page>
 </mvc:View>
