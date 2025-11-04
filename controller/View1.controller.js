@@ -10,7 +10,7 @@ sap.ui.define([
   return Controller.extend("naruto.helperbox.controller.View1", {
 
     onInit: function () {
-      var oModel = new JSONModel("model/data.json");
+      var oModel = new JSONModel("../model/data.json");
       this.getView().setModel(oModel);
     },
 
